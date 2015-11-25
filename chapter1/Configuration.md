@@ -7,8 +7,7 @@ The default configuration for CFCouchbase is located in  `/cfcouchbase/config/Co
 
 **Note:** The config CFC is the most contained and portable way to store your configuration.
 
-There are a number of configuration options you can set for the client, but most of them can be left at their default value.  To see a full list of options, look in the `/cfcouchbase/config/CouchbaseConfig.cfc` or the user friendly [API Docs](http://apidocs.ortussolutions.com/cfcouchbase/2.0.0).
-Here are some of the most common setting you will need to use:
+
 
 
 
