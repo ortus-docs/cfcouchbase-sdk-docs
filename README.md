@@ -1,4 +1,9 @@
-My Awesome Book
-=======
+#CFCouchbase SDK 2.0
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+###Requirements
+
+- Couchbase Server 1.8+
+    - For N1QL queries Couchbase Server 4.0+ 
+- Adobe ColdFusion 9.01+
+- Railo 3.1+
+- Lucee 4.0+
