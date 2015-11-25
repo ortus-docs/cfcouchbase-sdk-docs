@@ -20,17 +20,5 @@ Here are some of the most common setting you will need to use:
 | caseSensitiveKeys | boolean | false          | Keys in Couchbase are case sensitive by default, the SDK by default converts all keys to lowercase, setting this to *true* will prevent this |
 | dataMarshaller    | any     |                | The data marshaller to use for serializations and deserializations, please put the class path or the instance of the marshaller to use. Remember that it must implement our interface: `cfcouchbase.data.IDataMarshaller` |
 
-####Config Struct
 
-The simplest way to get started using the SDK is to simply pass a struct of config settings into the constructor when you create the client.
-
-```cfml
-couchbase = new cfcouchbase.CouchbaseClient(
-	{
-		servers = ["http://cache1:8091", "http://cache2:8091"],
-		bucketName  = "myBucket",
-		viewTimeout = 1000
-	} 
-);
-```
 
