@@ -4,6 +4,5 @@ There are a lot of different ways to handle **CFCs** and we allow for several di
 
 * [Auto Inflation](components/auto_inflation.md)
 * [Manual Inflation](components/manual_inflation.md)
-* [Serialization](components/serialization.md)
 * [Custom Serialization](components/custom_serialization.md)
 * [Binary](components/binary.md)
