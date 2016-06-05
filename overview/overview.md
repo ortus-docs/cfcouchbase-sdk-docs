@@ -8,6 +8,10 @@
 - Railo 3.1+
 - Lucee 4.0+
 
+##### Couchbase SDK Version
+
+The Couchbase SDK Version used is 2.2.6
+
 ###Features 
 
 - Lightweight, standalone library can be used with any CFML application or CFML framework
