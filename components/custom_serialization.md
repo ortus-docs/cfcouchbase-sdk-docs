@@ -36,7 +36,7 @@ user.setFirstName( "Brad" );
 user.setLastName( "Wood" );
 user.setAge( 45 );
 
-couchbase.set( 'half-pipe', user );
+couchbase.upsert( 'half-pipe', user );
 
 reinflatedUser = couchbase.get( id="half-pipe", inflateTo='CustomUser' );
 
