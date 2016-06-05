@@ -15,7 +15,7 @@ Download the SDK from our [http://www.ortussolutions.com/products/cfcouchbase do
 
 The CFCouchase SDK is contained in a single folder.  The easiest way to install it is to copy `cfcouchbase` in the web root.  For a more secure installation, place it outside the web root and create a mapping called `cfcouchbase`.   
 
-```
+```cfml
 this.mappings[ '/cfcouchbase' ] = 'C:\path\to\cfcouchbase';
 ```
 
@@ -41,7 +41,7 @@ map( "CouchbaseClient" )
 
 When you are finished with the client, you need to call its `shutdown()` method to close open connections to the Couchbase server.  The following code sample will wait up to 10 seconds for connections to be closed. 
 
-```
+```cfml
 public boolean function onApplicationEnd(){		
 	application.couchbase.shutdown( 10 );
 	return true;
