@@ -10,7 +10,7 @@ Simple values (strings) won't be touched, so if you want to control how an array
 
 ```coldfusion
 // Set my own JSON string
-client.set( 
+client.upsert( 
     id="IDidItMyWay", 
     value='{ "title": "My Way", "artist": "Frank Sinatra", "year": "1969"}'
 );
@@ -27,7 +27,7 @@ Complex data (structs, queries, arrays) will be automatically serialized for you
 * **Queries** - Will be converted to binary with `objectSave()` and wrapped in a struct of metadata containing the *recordcount* and *columnlist*. They are converted to binary so they can be re-inflated back to CFML queries.
 
 ```coldfusion
-client.set( 
+client.upsert( 
     id='weekDays', 
     value=['Sunday','Monday','Tuesday','Wednesay','Thursday','Friday','Saturday']
 );
