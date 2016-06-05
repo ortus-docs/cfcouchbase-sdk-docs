@@ -19,7 +19,7 @@ funkyChicken.setTitle( "Chicken Dance" );
 funkyChicken.setArtist( "Werner Thomas" );
 
 // Pass the CFC in
-couchbase.set( 'funkyChicken', funkyChicken );
+couchbase.upsert( 'funkyChicken', funkyChicken );
 
 // And get a CFC out!
 birdieSong = couchbase.get( 'funkyChicken' );
