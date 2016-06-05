@@ -6,3 +6,6 @@ There are 2 types of queries available in the SDK:
 
 * [View Queries](/queries/view_queries.md)
 * [N1QL Queries](/queries/n1ql_queries.md)
+
+Both types of queries can be executed through the parent facade of `query()` or through their standalone methods of `viewQuery()` and `n1qlQuery()`.
+
