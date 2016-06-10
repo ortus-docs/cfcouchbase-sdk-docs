@@ -10,7 +10,7 @@
 
 The CFCouchbase SDK is a CFML library for interacting with [Couchbase NoSQL Server](http://www.couchbase.com). It can be used by any CFML application or CFML framework to provide them with NoSQL, distributed caching, dynamic queries and many more capabilities. The CFCouchbase SDK wraps the Couchbase Java SDK and enhances it to provide with a nice dynamic language syntax and usability.
 
-> Initially sponsored by Guardly, Inc ([www.guardly.com](http://www.guardly.com))
+> **Info** Initially sponsored by Guardly, Inc ([www.guardly.com](http://www.guardly.com))
 
 > Couchbase is copyright and a registered trademark by Couchbase, Inc.
 
