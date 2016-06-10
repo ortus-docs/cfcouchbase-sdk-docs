@@ -34,8 +34,8 @@ CFCouchbase is open source and licensed under the [Apache 2](http://www.apache.o
 The CFCouchbase help and discussion group can be found here: https://groups.google.com/a/ortussolutions.com/forum/#!forum/cfcouchbase
 
 # Reporting a Bug
-We all make mistakes from time to time :) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: https://github.com/Ortus-Solutions/TestBox
-* By Jira: https://ortussolutions.atlassian.net/browse/TESTBOX
+We all make mistakes from time to time :) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: https://github.com/Ortus-Solutions/cfcouchbase-sdk
+* By Jira: https://ortussolutions.atlassian.net/browse/COUCHBASESDK
 * 
 ## Important Links
 
