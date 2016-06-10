@@ -1,6 +1,13 @@
 # Installation
 
-Download the SDK from our [http://www.ortussolutions.com/products/cfcouchbase download page] or visit our latest concoctions in [https://github.com/Ortus-Solutions/cfcouchbase-sdk Github], then unzip the file.  
+Download the SDK from our download page: http://www.ortussolutions.com/products/cfcouchbase or visit our latest concoctions in [https://github.com/Ortus-Solutions/cfcouchbase-sdk Github], then unzip the file.  
+
+## System Requirements
+- Lucee 4.5+
+- Railo 4+
+- ColdFusion 9+
+
+## What's Included
 
 - `/cfcouchbase` - This is the actual SDK code
 - `/documentation` - This is a standalone version of the documentation you are reading right now
