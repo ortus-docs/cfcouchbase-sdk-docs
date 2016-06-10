@@ -1,4 +1,4 @@
-### Installation
+# Installation
 
 Download the SDK from our [http://www.ortussolutions.com/products/cfcouchbase download page] or visit our latest concoctions in [https://github.com/Ortus-Solutions/cfcouchbase-sdk Github], then unzip the file.  
 
