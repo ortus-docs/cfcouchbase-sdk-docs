@@ -17,7 +17,7 @@ The really nice thing about `saveView()` and `asyncSaveView()` is they either in
 
 ```js
 // application start
-public boolean function onApplicationStart(){
+boolean function onApplicationStart(){
 	application.couchbase = new cfcouchbase.CouchbaseClient( { bucketName="beer-sample" } );
 	
 	// Specify the views the applications needs here.  They will be created/updated
