@@ -17,6 +17,17 @@ The following objects are already mapped in the module edition:
 * `CouchbaseConfig` maps to `cfcouchbase.config.CouchbaseConfig`
 * `CouchbaseClient@cfcouchbase` maps to `cfcouchbase.CouchbaseClient`
 
+### ColdBox Settings
+You can configure the SDK by creating a `couchbase` structure in your `ColdBox.cfc configuration file.
+
+```
+couchbase = {
+    servers 	= "http://127.0.0.1:8091",
+    bucketname 	= "default",
+    viewTimeout	= "1000"
+};
+```
+
 ## Manual Installation
 
 Download the SDK from the following sources:
