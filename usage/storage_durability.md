@@ -15,7 +15,7 @@ client.upsert(
 );
 ```
 
-**Note:** All documents will eventually replicate and persist by themselves.  You only need these options if the application cannot continue without it.
+> **Hint** All documents will eventually replicate and persist by themselves.  You only need these options if the application cannot continue without it.
 
 There are many other methods for storing data.  Please check the [API docs](http://apidocs.ortussolutions.com/cfcouchbase/2.0.0) to see full descriptions and code samples for all of them.  Here are a few to wet your appetite:
 
