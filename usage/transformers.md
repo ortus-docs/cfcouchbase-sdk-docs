@@ -15,9 +15,9 @@ interface{
 }
 ```
 
-####myDataMarshaller.cfc
+## myDataMarshaller.cfc
 
-```coldfusion
+```js
 component implements='cfcouchbase.data.IDataMarshaller' {
 
 	any function setCouchbaseClient( required couchcbaseClient ){
@@ -44,7 +44,7 @@ component implements='cfcouchbase.data.IDataMarshaller' {
 
 After you have created your custom marshaller, simply pass in an instance of it or the full component path as a config setting:
 
-```coldfusion
+```js
 // path
 couchbase = new cfcouchbase.CouchbaseClient(
 	{
