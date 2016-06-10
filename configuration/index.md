@@ -3,7 +3,7 @@
 The most portable method for configuring the client is to use a CFC to place your config settings in much like our other libraries such as [WireBox](https://wirebox.ortusbooks.com) and [CacheBox](https://cachebox.ortusbooks.com) allow.
 To do this simply create a plain CFC with a public method called `configure()`.  Inside of that method, put your config settings into the variables scope of the component.  The `configure()` method does not need to return any value.  It will be automatically invoked by the SDK prior to the config settings being extracted from the CFC. 
 
-```coldfusion
+```js
 component {
 	
 	function configure() {
@@ -15,9 +15,9 @@ component {
 }
 ```
 
-To use the config CFC, simply pass it into the CouchbaseClient's constructor.
+To use the config CFC, simply pass it into the `CouchbaseClient's` constructor.
 
-```coldfusion
+```js
 // You can pass an instance
 couchbase = new cfcouchbase.CouchbaseClient( new path.to.config() );
 
