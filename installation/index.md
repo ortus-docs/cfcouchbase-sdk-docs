@@ -25,5 +25,8 @@ The easiest way to get started with CFCouchbase is to use [CommandBox CLI](https
 box install cfcouchbase	
 ```
 
-This approach can be used for both ColdBox and non-ColdBox applications.
+This approach can be used for the following application approaches:
+
+* [ColdBox Module](coldbox_module.md)
+* [Traditional ColdFusion Apps](traditional_apps.md)
 
