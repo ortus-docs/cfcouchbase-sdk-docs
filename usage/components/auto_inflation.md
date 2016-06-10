@@ -28,7 +28,7 @@ writeOutput( birdieSong.gettitle() );
 writeOutput( birdieSong.getArtist() );
 ```
 
-####CFC data in couchbase
+## CFC data in couchbase
 
 ```js
 {
