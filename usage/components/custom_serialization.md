@@ -2,9 +2,9 @@
 
 If you really want to get extra funky and control how your components are serialized, you can fall back on our conventions.  If the CFC has a public method called `$serialize()`, it will be called and its output (must be a *string*) will be saved in Couchbase.  The CFC can also have a public method called `$deserialize( id, data )`, that if declared will be called and given the data so it can populate itself.
 
-####CustomUser.cfc
+## CustomUser.cfc
 
-```coldfusion
+```js
 // CustomUser is an object that implements its own serialization scheme
 // using pipe-delimited lists to store the data instead of JSON.  It has both
 // a $serialize() and $deserialize() method to facilitate that.
@@ -28,9 +28,9 @@ component accessors="true"{
 }
 ```
 
-####Usage
+## Usage
 
-```coldfusion
+```js
 user = new CustomUser();
 user.setFirstName( "Brad" );
 user.setLastName( "Wood" );
