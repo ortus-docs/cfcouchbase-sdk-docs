@@ -9,6 +9,6 @@ future = client.asyncGet( ID = 'brad' );
 person = future.get();
 ```
 
-`OperationFutures` are parameterized which means they can each return a different data type from their `get()`. Check the API Docs to see what each asynchronous future returns.
+`OperationFutures` are parameterized which means they can each return a different data type from their `get()`. Check the [API Docs](http://apidocs.ortussolutions.com/cfcouchbase/current/) to see what each asynchronous future returns.
 
 
