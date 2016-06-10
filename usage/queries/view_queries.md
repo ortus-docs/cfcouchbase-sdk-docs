@@ -29,8 +29,8 @@ Here are the arguments you can pass into the `query()` or `viewQuery()` methods.
 
 CFCouchbase will natively transform the data into an array of structs with a specific format. These keys are included in the struct that represents a row. This is the same struct that is returned in the result array and passed into the transform and filter closures.
 
-* id - The unique document id. Only avaialble on non-reduced queries
-* document - The JSON document reinflated back to its original form. Only available on non-reduced views
-* key - For non-reduced queries, the key emitted from the map function. For reduced views, null.
-* value - For non-reduced queries, the value emitted from the map function. For reduced views, the output of the reduce function.
+* `id` - The unique document id. Only avaialble on non-reduced queries
+* `document` - The JSON document reinflated back to its original form. Only available on non-reduced views
+* `key` - For non-reduced queries, the key emitted from the map function. For reduced views, null.
+* `value` - For non-reduced queries, the value emitted from the map function. For reduced views, the output of the reduce function.
 
