@@ -52,6 +52,8 @@ Here are some of the most common keys you can pass in the struct of options to c
 | `keys` 		|	An array of keys to return. For complex keys, pass each key as an array.
 | `stale` 		|	Specifies if stale data can be returned with the view. Possible values are: `OK` - (default)stale data is ok, `FALSE` - force index of view, and `UPDATE_AFTER` potentially returns stale data, but starts an asynch re-index. |
 
+## Example
+
 ```js
 // Return 10 records, skipping the first 20.  Force fresh data
 results = client.query( 
