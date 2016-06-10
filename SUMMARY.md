@@ -8,4 +8,5 @@
 * [Installation](installation/index.md)
 * [Configuration](configuration/config_cfc.md)
    * Settings
+   * Structure
 
