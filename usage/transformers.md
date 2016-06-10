@@ -61,4 +61,4 @@ couchbase = new cfcouchbase.CouchbaseClient(
 );
 ```
 
-**Note:** Once you specify a custom data marshaller, you are overriding all **Data Serialization** functionality above.  So you are on your own now buddy!  Like good 'ol spidey says: With Much Power Comes Much Responsibility!
+> **Tip** Once you specify a custom data marshaller, you are overriding all **Data Serialization** functionality above.  So you are on your own now buddy!  Like good 'ol spidey says: With Much Power Comes Much Responsibility!
