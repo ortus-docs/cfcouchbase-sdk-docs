@@ -1,4 +1,4 @@
-#View Queries
+# View Queries
 
 The minimum information you need to execute a view query is the name of the **design document** and the **view** you wish you use.
 
@@ -54,14 +54,30 @@ Here are some of the most common keys you can pass in the struct of options to c
 
 ```js
 // Return 10 records, skipping the first 20.  Force fresh data
-results = client.query( designDocumentName='beer', viewName='brewery_beers', options={ limit = 10, offset = 20, stale = 'FALSE' } );
+results = client.query( 
+	designDocumentName='beer', 
+	viewName='brewery_beers', 
+	options={ limit = 10, offset = 20, stale = 'FALSE' } 
+);
 
 // Only return 20 records and skip the reduce function in the view
-results = client.query( designDocumentName='beer', viewName='by_location', options={ limit = 20, reduce = false } );
+results = client.query( 
+	designDocumentName='beer', 
+	viewName='by_location', 
+	options={ limit = 20, reduce = false } 
+);
 
 // Group results (Will return a single record with the count as the value)
-results = client.query( designDocumentName='beer', viewName='brewery_beers', options={ group = true } );
+results = client.query( 
+	designDocumentName='beer', 
+	viewName='brewery_beers', 
+	options={ group = true } 
+);
 
 // Start at the specified key and sort descending 
-results = client.query( designDocumentName='beer', viewName='brewery_beers', options={ sortOrder = 'DESC', startKey = ["aldaris","aldaris-zelta"] } );
+results = client.query( 
+	designDocumentName='beer', 
+	viewName='brewery_beers', 
+	options={ sortOrder = 'DESC', startKey = ["aldaris","aldaris-zelta"] } 
+);
 ```
