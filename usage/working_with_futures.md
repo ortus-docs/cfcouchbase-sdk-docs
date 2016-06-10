@@ -11,4 +11,4 @@ person = future.get();
 
 `OperationFutures` are parameterized which means they can each return a different data type from their `get()`. Check the [API Docs](http://apidocs.ortussolutions.com/cfcouchbase/current/) to see what each asynchronous future returns.
 
-
+> **Info** Operations are always subject to the timeouts configured for the client regardless of how you interact with the future.
