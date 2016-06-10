@@ -36,6 +36,18 @@ The CFCouchbase help and discussion group can be found here: https://groups.goog
 # Reporting a Bug
 We all make mistakes from time to time :) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: https://github.com/Ortus-Solutions/cfcouchbase-sdk
 * By Jira: https://ortussolutions.atlassian.net/browse/COUCHBASESDK
+
+# Professional Open Source
+![Ortus Solutions, Corp](images/ortussolutions_button.png)
+
+CFCouchbase is a professional open source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/products/cfcouchbase) offering services like:
+* Custom Development
+* Professional Support & Mentoring
+* Training
+* Server Tuning
+* Security Hardening
+* Code Reviews
+* [Much More](http://www.ortussolutions.com/services)
 * 
 ## Important Links
 
