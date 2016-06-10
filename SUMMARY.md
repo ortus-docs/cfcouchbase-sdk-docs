@@ -7,4 +7,5 @@
 * [Overview](overview/overview.md)
 * [Installation](installation/index.md)
 * [Configuration](configuration/config_cfc.md)
+   * Settings
 
