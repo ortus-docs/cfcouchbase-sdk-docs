@@ -38,7 +38,7 @@ writeOutput( arrayLen( days ) );
 
 ## Query Representation
 
-```javascript
+```js
 {
   "recordcount": 3,
   "type": "cfcouchbase-query",
