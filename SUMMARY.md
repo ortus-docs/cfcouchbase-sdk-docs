@@ -6,5 +6,5 @@
    * [Authors](introduction/authors.md)
 * [Overview](overview/overview.md)
 * [Installation](installation/index.md)
-* Configuration
+* [Configuration](configuration/config_cfc.md)
 
