@@ -26,6 +26,7 @@
        * [n1ql Queries](usage/queries/n1ql_queries.md)
        * [Query Options](usage/queries/query_options.md)
        * [Filter Closures](usage/queries/filter_closures.md)
+       * Transform Closures
    * [Managing Views](usage/managing_views.md)
    * [Working With Futures](usage/working_with_futures.md)
 * [Help & Support](help/index.md)
