@@ -1,6 +1,5 @@
 # Authors
 
-
 ## Luis Fernando Majano Lainez
 <img src="../images/luismajano.jpg">
 
