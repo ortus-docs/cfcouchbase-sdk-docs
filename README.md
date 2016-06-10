@@ -14,10 +14,10 @@ The CFCouchbase SDK is a CFML library for interacting with [Couchbase NoSQL Serv
 
 > Couchbase is copyright and a registered trademark by Couchbase, Inc.
 
-##LICENSE
+## License
 Apache License, Version 2.0.
 
-## IMPORTANT LINKS
+## Important Links
 
 - Source Code - [https://github.com/Ortus-Solutions/cfcouchbase-sdk](https://github.com/Ortus-Solutions/cfcouchbase-sdk)
 - Tracker Site (Bug Tracking, Issues) - [https://ortussolutions.atlassian.net/browse/COUCHBASESDK](https://ortussolutions.atlassian.net/browse/COUCHBASESDK)
