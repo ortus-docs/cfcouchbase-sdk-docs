@@ -8,7 +8,7 @@ The CFCouchbase SDK will automatically serialize complex data for you when stori
 Before we tell how CFCouchbase serializes your data, we'll tell you how to *avoid* this behavior if you don't want it.  
 Simple values (strings) won't be touched, so if you want to control how an array is serialized, just turn it to a **string** first and then pass it into `set()` operations.  These strings can be JSON or anything of your choosing.  When you retrieve these documents back, CFCouchbase will try to deserialize them for you automatically according to our rules you will see soon.  However, if you want the raw data back from Couchbase as a string (regardless of how it was stored),  pass `deserialize=false` into your `get()` or `query()` methods and CFCouchbase will not automatically deserialize it but just pass it back to you.
 
-```coldfusion
+```js
 // Set my own JSON string
 client.upsert( 
     id="IDidItMyWay", 
@@ -26,7 +26,7 @@ Complex data (structs, queries, arrays) will be automatically serialized for you
 * **Structs** and **Arrays** will be converted via `serializeJSON()` and stored as JSON so you can query them with views.
 * **Queries** - Will be converted to binary with `objectSave()` and wrapped in a struct of metadata containing the *recordcount* and *columnlist*. They are converted to binary so they can be re-inflated back to CFML queries.
 
-```coldfusion
+```js
 client.upsert( 
     id='weekDays', 
     value=['Sunday','Monday','Tuesday','Wednesay','Thursday','Friday','Saturday']
