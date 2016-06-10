@@ -21,7 +21,7 @@
        * [Custom Serialization](usage/components/custom_serialization.md)
        * [Binary](usage/components/binary.md)
    * [Custom Transformers](usage/transformers.md)
-   * Executing Queries
+   * [Executing Queries](usage/queries/index.md)
    * [Managing Views]
    * [Working With Futures]
 * [Help & Support](help/index.md)
