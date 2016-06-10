@@ -24,6 +24,7 @@ public boolean function onApplicationStart(){
 }
 ```
 
+## WireBox
 However, we would recommend you use a dependency injection framework like [WireBox](https://wirebox.ortusbooks.com) to create and manage your Couchbase Client:
 
 ```cfml
