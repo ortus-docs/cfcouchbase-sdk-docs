@@ -24,4 +24,5 @@
 * Executing Queries
 * Managing Views
 * Working With Futures
+* Help & Support
 
