@@ -36,7 +36,7 @@ days = client.get( 'weekDays' );
 writeOutput( arrayLen( days ) );
 ```
 
-###Query Representation
+## Query Representation
 
 ```javascript
 {
