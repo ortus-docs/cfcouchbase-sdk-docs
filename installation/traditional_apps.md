@@ -15,8 +15,7 @@ The CFCouchase SDK is contained in a single folder.  The easiest way to install 
 this.mappings[ '/cfcouchbase' ] = 'C:\path\to\cfcouchbase';
 ```
 
-Now that the code is in place, all you need to do is create an instance of `cfcouchbase.CouchbaseClient` for each bucket you want to connect to.  The `CouchbaseClient` class is thread safe and you only need one instance per bucket for your entire application.  It is recommended that you store the instantiated client 
-in a persistent scope such as `application` when your app starts up so you can access it easily.
+Now that the code is in place, all you need to do is create an instance of `cfcouchbase.CouchbaseClient` for each bucket you want to connect to.  The `CouchbaseClient` class is thread safe and you only need one instance per bucket for your entire application.  It is recommended that you store the instantiated client in a persistent scope such as `application` when your app starts up so you can access it easily.
 
 ```cfml
 public boolean function onApplicationStart(){
