@@ -22,7 +22,7 @@
        * [Binary](usage/components/binary.md)
    * [Custom Transformers](usage/transformers.md)
    * [Executing Queries](usage/queries/index.md)
-       * View Queries
+       * [View Queries](usage/queries/view_queries.md)
        * n1ql Queries
    * [Managing Views]
    * [Working With Futures]
