@@ -6,7 +6,7 @@
    * [Authors](introduction/authors.md)
 * [Overview](overview/index.md)
 * [Installation](installation/index.md)
-   * ColdBox Module
+   * [ColdBox Module](installation/coldbox_module.md)
    * Traditional Apps
 * [Configuration](configuration/index.md)
    * [Settings](configuration/config_settings.md)
