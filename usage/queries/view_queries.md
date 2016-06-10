@@ -25,3 +25,12 @@ Here are the arguments you can pass into the `query()` or `viewQuery()` methods.
 | transform          | `function` |       | A closure or UDF to use to transform records from the returning array of records, the closure receives a struct that has id, document, key, and value: function( row ). Since the struct is by reference, you do not need to return anything. |
 | returnType         | `any`      | array | The type of return for us to return to you. Available options: array, native, iterator  |
 
+## Results
+
+CFCouchbase will natively transform the data into an array of structs with a specific format. These keys are included in the struct that represents a row. This is the same struct that is returned in the result array and passed into the transform and filter closures.
+
+* id - The unique document id. Only avaialble on non-reduced queries
+* document - The JSON document reinflated back to its original form. Only available on non-reduced views
+* key - For non-reduced queries, the key emitted from the map function. For reduced views, null.
+* value - For non-reduced queries, the value emitted from the map function. For reduced views, the output of the reduce function.
+
