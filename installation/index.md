@@ -8,11 +8,10 @@ The easiest way to get started with CFCouchbase is to use [CommandBox CLI](https
 box install cfcouchbase	
 ```
 
-That's it!
 
-## Manual Installation 
-Download the SDK from our download page: http://www.ortussolutions.com/products/cfcouchbase or visit our latest concoctions in [https://github.com/Ortus-Solutions/cfcouchbase-sdk Github], then unzip the file.  
+## Manual Installation
 
+Download the SDK from our download page: http://www.ortussolutions.com/products/cfcouchbase or visit our latest concoctions in [https://github.com/Ortus-Solutions/cfcouchbase-sdk Github], and our integration server: http://integration.stg.ortussolutions.com/artifacts/ortussolutions/cfcouchbase/.
 ## System Requirements
 - Lucee 4.5+
 - ColdFusion 10+
