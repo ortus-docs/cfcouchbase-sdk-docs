@@ -15,6 +15,7 @@ client.upsert(
 ```
 
 The `id` of the document is `brad` and it will live in the cluster forever until it is deleted.  If I want my document to expire and be automatically removed from the cluster after a certain amount of time, I can specify the `timeout` argument.
+
 This document will be cached for 20 minutes before expiring.  Couchbase will automatically remove it for you once it has expired.
 
 ```coldfusion
