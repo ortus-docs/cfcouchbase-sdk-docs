@@ -14,7 +14,7 @@ The CFCouchbase SDK is a CFML library for interacting with [Couchbase NoSQL Serv
 
 The Couchbase SDK Version used is 2.2.6
 
-###Features 
+## Capabilities 
 
 - Lightweight, standalone library can be used with any CFML application or CFML framework
 - High performance
