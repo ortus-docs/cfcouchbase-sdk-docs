@@ -6,7 +6,7 @@
 	      /_/   \____/_/    \____/\____/\__,_/\___/_/ /_/_.___/\__,_/____/\___/ 
 ```                                                                        
 
-<img src="images/couchbase-185-logo.png">
+<img src="../images/cfcouchbase-185-logo.png">
 
 # Welcome to CFCouchbase SDK v2.0.0
 
