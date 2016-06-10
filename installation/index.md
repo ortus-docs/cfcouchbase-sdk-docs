@@ -32,7 +32,7 @@ Download the SDK from the following sources:
     - `/beer-brewery-manager-mvc` - Same as above but as an MVC application. Requires a /coldbox mapping on your server.
     - `/coldbox-sample` - A sample ColdBox application that shows loading CFCouchbase via a module. Requires a /coldbox mapping. 
 
-**Note:** The API Docs also have descriptions and code samples for every method. They are a must read as well!   
+> **Note** The API Docs also have descriptions and code samples for every method. They are a must read as well!   
 
 The CFCouchase SDK is contained in a single folder.  The easiest way to install it is to copy `cfcouchbase` in the web root.  For a more secure installation, place it outside the web root and create a mapping called `cfcouchbase`.   
 
