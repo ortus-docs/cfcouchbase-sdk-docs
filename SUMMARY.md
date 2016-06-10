@@ -16,4 +16,5 @@
    * [Retrieving Documents](usage/retrieving_documents.md)
    * [Data Serialization](usage/data_serialization.md)
    * [Components](usage/components/components.md)
+       * Auto Inflation
 
