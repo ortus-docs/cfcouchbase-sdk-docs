@@ -14,4 +14,5 @@
    * [Storing Documents](usage/storing_documents.md)
    * [Storage Durability](usage/storage_durability.md)
    * [Retrieving Documents](usage/retrieving_documents.md)
+   * [Data Serialization](usage/data_serialization.md)
 
