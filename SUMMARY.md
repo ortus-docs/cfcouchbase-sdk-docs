@@ -10,5 +10,5 @@
    * [Settings](configuration/config_settings.md)
    * [Structure](configuration/config_structure.md)
    * [Summary](configuration/config_summary.md)
-* Usage
+* [Usage](usage/index.md)
 
