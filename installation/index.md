@@ -4,8 +4,7 @@ Download the SDK from our download page: http://www.ortussolutions.com/products/
 
 ## System Requirements
 - Lucee 4.5+
-- Railo 4+
-- ColdFusion 9+
+- ColdFusion 10+
 
 ## What's Included
 
