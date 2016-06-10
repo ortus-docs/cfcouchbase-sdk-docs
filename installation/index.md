@@ -1,5 +1,16 @@
 # Installation
 
+## CommandBox Installation (Recommended)
+
+The easiest way to get started with CFCouchbase is to use [CommandBox CLI](https://www.ortussolutions.com/products/commandbox) to install in any directory:
+
+```bash
+box install cfcouchbase	
+```
+
+That's it!
+
+## Manual Installation 
 Download the SDK from our download page: http://www.ortussolutions.com/products/cfcouchbase or visit our latest concoctions in [https://github.com/Ortus-Solutions/cfcouchbase-sdk Github], then unzip the file.  
 
 ## System Requirements
