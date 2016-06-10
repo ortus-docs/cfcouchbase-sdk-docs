@@ -18,7 +18,7 @@ The following objects are already mapped in the module edition:
 * `CouchbaseClient@cfcouchbase` maps to `cfcouchbase.CouchbaseClient`
 
 ### ColdBox Settings
-You can configure the SDK by creating a `couchbase` structure in your `ColdBox.cfc configuration file.
+You can configure the SDK by creating a `couchbase` structure in your `ColdBox.cfc configuration file.  This structure can contain any setting from the `CouchbaseConfig` object.
 
 ```
 couchbase = {
