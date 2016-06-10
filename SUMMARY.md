@@ -23,7 +23,7 @@
    * [Custom Transformers](usage/transformers.md)
    * [Executing Queries](usage/queries/index.md)
        * [View Queries](usage/queries/view_queries.md)
-       * n1ql Queries
+       * [n1ql Queries](usage/queries/n1ql_queries.md)
    * [Managing Views]
    * [Working With Futures]
 * [Help & Support](help/index.md)
