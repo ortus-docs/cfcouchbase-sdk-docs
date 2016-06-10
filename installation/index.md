@@ -25,13 +25,12 @@ Download the SDK from the following sources:
 ## What's Included
 
 - `/cfcouchbase` - This is the actual SDK code
-- `/documentation` - This is a standalone version of the documentation you are reading right now
 - `/apidocs` - The API docs that show you the FULL list of SDK methods and their arguments (even ones not covered here). There is also an [Online Version] as well.
 - `/samples` - A collection of sample apps that use the "beer-sample" bucket.  
     - `/beer-brewery-manager` - Showcases view creation, and basic CRUD operations utilizing native CF data structures
     - `/beer-brewery-manager-oo` - Same as above but with OO design patterns.  Showcases Couchbase CFC inflation
     - `/beer-brewery-manager-mvc` - Same as above but as an MVC application. Requires a /coldbox mapping on your server.
-    - `/coldbox-module-loader` - A sample ColdBox application that shows loading CFCouchbase via a module. Requires a /coldbox mapping. 
+    - `/coldbox-sample` - A sample ColdBox application that shows loading CFCouchbase via a module. Requires a /coldbox mapping. 
 
 **Note:** The API Docs also have descriptions and code samples for every method. They are a must read as well!   
 
