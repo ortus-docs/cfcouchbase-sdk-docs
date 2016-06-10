@@ -1,4 +1,6 @@
-#Overview 
+# Overview 
+
+The CFCouchbase SDK is a CFML library for interacting with [Couchbase NoSQL Server](http://www.couchbase.com). It can be used by any CFML application or CFML framework to provide them with NoSQL, distributed caching, dynamic queries and many more capabilities. The CFCouchbase SDK wraps the Couchbase Java SDK and enhances it to provide with a nice dynamic language syntax and usability.
 
 ###Requirements
 
