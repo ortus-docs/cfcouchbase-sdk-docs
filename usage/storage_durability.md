@@ -5,7 +5,7 @@ Couchbase auto-shards `master` and `replica` documents across your cluster out-o
 * If your application requires you to confirm that a document has been persisted to disk, use the `persistTo` argument.  
 * If you need to confirm that the document has been copied to a given number replica nodes, use the `replicateTo` argument.
 
-```coldfusion
+```js
 // This document will be persisted to disk on at least two nodes
 client.upsert(
 	ID = 'brad',
