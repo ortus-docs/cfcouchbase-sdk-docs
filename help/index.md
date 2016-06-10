@@ -1,5 +1,5 @@
 # Help & Support
-If you need any community help related to our CFCouchbase SDK, you can use our online help group at http://groups.google.com/a/ortussolutions.com/forum/#!forum/cfcouchbase . If you need any type of professional services around our CFCouchbase SDK like training, consulting or professional support then please contact us at consulting@ortussolutions.com or visit us at https://www.ortussolutions.com.
+If you need any community help related to our CFCouchbase SDK, you can use our online help group at http://groups.google.com/a/ortussolutions.com/forum/#!forum/cfcouchbase.
 
 # Professional Open Source
 ![Ortus Solutions, Corp](../images/ortussolutions_button.png)
