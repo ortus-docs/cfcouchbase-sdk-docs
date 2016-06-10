@@ -27,7 +27,7 @@
        * [Query Options](usage/queries/query_options.md)
        * [Filter Closures](usage/queries/filter_closures.md)
        * [Transform Closures](usage/queries/transform_closures.md)
-       * Return Types
+       * [Return Types](usage/queries/return_types.md)
    * [Managing Views](usage/managing_views.md)
    * [Working With Futures](usage/working_with_futures.md)
 * [Help & Support](help/index.md)
