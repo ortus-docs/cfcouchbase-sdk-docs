@@ -15,7 +15,9 @@ Download the SDK from the following sources:
 
 * Official Releases: http://www.ortussolutions.com/products/cfcouchbase 
 * Source: https://github.com/Ortus-Solutions/cfcouchbase-sdk Github
-* Bleeding Edge + More: http://integration.stg.ortussolutions.com/artifacts/ortussolutions/cfcouchbase/.
+* Bleeding Edge + More: http://integration.stg.ortussolutions.com/artifacts/ortussolutions/cfcouchbase/
+
+
 ## System Requirements
 - Lucee 4.5+
 - ColdFusion 10+
