@@ -11,4 +11,6 @@
    * [Structure](configuration/config_structure.md)
    * [Summary](configuration/config_summary.md)
 * [Usage](usage/index.md)
+   * [Storing Documents](usage/storing_documents.md)
+   * [Storage Durability](usage/storage_durability.md)
 
