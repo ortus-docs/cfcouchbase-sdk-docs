@@ -22,6 +22,7 @@
        * [Binary](usage/components/binary.md)
    * [Custom Transformers](usage/transformers.md)
    * [Executing Queries](usage/queries/index.md)
+       * View Queries
    * [Managing Views]
    * [Working With Futures]
 * [Help & Support](help/index.md)
