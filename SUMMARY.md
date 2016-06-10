@@ -7,7 +7,7 @@
 * [Overview](overview/overview.md)
 * [Installation](installation/index.md)
 * [Configuration](configuration/config_cfc.md)
-   * Settings
-   * Structure
-   * Summary
+   * [Settings](configuration/config_settings.md)
+   * [Structure](configuration/config_structure.md)
+   * [Summary](configuration/config_summary.md)
 
