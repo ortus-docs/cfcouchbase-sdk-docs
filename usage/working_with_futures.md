@@ -8,3 +8,7 @@ The most common method is `get()`. Calling this will instruct your code to wait 
 future = client.asyncGet( ID = 'brad' );
 person = future.get();
 ```
+
+`OperationFutures` are parameterized which means they can each return a different data type from their get(). Check the API Docs to see what each asynchronous future returns.
+
+
