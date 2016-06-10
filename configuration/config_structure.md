@@ -1,4 +1,4 @@
-##Config Structure
+# Config Structure
 
 The simplest way to get started using the SDK is to simply pass a struct of config settings into the constructor when you create the client.
 
