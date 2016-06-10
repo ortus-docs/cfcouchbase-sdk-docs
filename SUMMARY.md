@@ -21,4 +21,5 @@
        * [Custom Serialization](usage/components/custom_serialization.md)
        * [Binary](usage/components/binary.md)
    * [Custom Transformers](usage/transformers.md)
+* Executing Queries
 
