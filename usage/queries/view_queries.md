@@ -34,3 +34,9 @@ CFCouchbase will natively transform the data into an array of structs with a spe
 * `key` - For non-reduced queries, the key emitted from the map function. For reduced views, null.
 * `value` - For non-reduced queries, the value emitted from the map function. For reduced views, the output of the reduce function.
 
+## Query Options
+
+Here are some of the most common keys you can pass in the struct of options to control how the query is executed. Please check the [API Docs](http://apidocs.ortussolutions.com/cfcouchbase/2.0.0) for the full list.
+
+
+
