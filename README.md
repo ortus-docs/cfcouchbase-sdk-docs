@@ -30,6 +30,13 @@ And constructed with the following guidelines:
 ## License
 CFCouchbase is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License.
 
+# Discussion & Help
+The CFCouchbase help and discussion group can be found here: https://groups.google.com/a/ortussolutions.com/forum/#!forum/testbox
+
+# Reporting a Bug
+We all make mistakes from time to time :) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: https://github.com/Ortus-Solutions/TestBox
+* By Jira: https://ortussolutions.atlassian.net/browse/TESTBOX
+* 
 ## Important Links
 
 - Source Code - [https://github.com/Ortus-Solutions/cfcouchbase-sdk](https://github.com/Ortus-Solutions/cfcouchbase-sdk)
