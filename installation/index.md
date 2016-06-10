@@ -1,6 +1,6 @@
 # Installation
 
-## CommandBox Installation (Recommended)
+## CommandBox Installation
 
 The easiest way to get started with CFCouchbase is to use [CommandBox CLI](https://www.ortussolutions.com/products/commandbox) to install in any directory:
 
@@ -8,7 +8,7 @@ The easiest way to get started with CFCouchbase is to use [CommandBox CLI](https
 box install cfcouchbase	
 ```
 
-## ColdBox Module
+## ColdBox Module (Recommended)
 The CFCouchbase SDK is already a ColdBox Module. So if you are building a ColdBox MVC application and install CFCouchbase with `box install cfcouchbase`, it will be installed in your `modules` directory, create a mapping called `cfcouchbase` for you and create all the WireBox binders for you.  If you are not using ColdBox, then you will have to use the longer installation methods below.
 
 ### WireBox Mappings
