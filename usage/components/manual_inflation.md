@@ -30,4 +30,4 @@ person = client.get(
 
 If you are getting multiple documents back from Couchbase, your **inflateTo** closure will be called once per document.
 
-**Note:** You can even use `inflate` to when retrieving result sets, or querying Couchbase views and you'll get an array of populated CFCs!
+> **Note** You can even use `inflate` to when retrieving result sets, or querying Couchbase views and you'll get an array of populated CFCs!
