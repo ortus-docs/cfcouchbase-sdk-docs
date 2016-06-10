@@ -26,5 +26,5 @@ client.upsert(
 );
 ```
 
-> **Hint** The CFCouchbase SDK will try to be smart enough to translate any native CFML construct into JSON for you.  You can also pass binary data or JSON as well.  The SDK can also deal with CFC's to provide seamless CFC deserialization and inflation, please see the Data Serialization section.
+> **Tip** The CFCouchbase SDK will try to be smart enough to translate any native CFML construct into JSON for you.  You can also pass binary data or JSON as well.  The SDK can also deal with CFC's to provide seamless CFC deserialization and inflation, please see the Data Serialization section.
 
