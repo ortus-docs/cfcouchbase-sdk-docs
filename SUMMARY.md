@@ -7,7 +7,7 @@
 * [Overview](overview/index.md)
 * [Installation](installation/index.md)
    * [ColdBox Module](installation/coldbox_module.md)
-   * Traditional Apps
+   * [Traditional Apps](installation/traditional_apps.md)
 * [Configuration](configuration/index.md)
    * [Settings](configuration/config_settings.md)
    * [Structure](configuration/config_structure.md)
