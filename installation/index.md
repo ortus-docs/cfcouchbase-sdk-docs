@@ -11,7 +11,11 @@ box install cfcouchbase
 
 ## Manual Installation
 
-Download the SDK from our download page: http://www.ortussolutions.com/products/cfcouchbase or visit our latest concoctions in [https://github.com/Ortus-Solutions/cfcouchbase-sdk Github], and our integration server: http://integration.stg.ortussolutions.com/artifacts/ortussolutions/cfcouchbase/.
+Download the SDK from the following sources:
+
+* Official Releases: http://www.ortussolutions.com/products/cfcouchbase 
+* Source: https://github.com/Ortus-Solutions/cfcouchbase-sdk Github
+* Bleeding Edge + More: http://integration.stg.ortussolutions.com/artifacts/ortussolutions/cfcouchbase/.
 ## System Requirements
 - Lucee 4.5+
 - ColdFusion 10+
