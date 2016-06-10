@@ -1,6 +1,6 @@
 # Traditional Apps
 
-Download the SDK from the following sources:
+Download the SDK from the following sources or use CommandBox to install the SDK
 
 * Official Releases: http://www.ortussolutions.com/products/cfcouchbase 
 * Source: https://github.com/Ortus-Solutions/cfcouchbase-sdk Github
