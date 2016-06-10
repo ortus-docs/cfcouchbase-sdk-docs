@@ -9,4 +9,5 @@
 * [Configuration](configuration/config_cfc.md)
    * Settings
    * Structure
+   * Summary
 
