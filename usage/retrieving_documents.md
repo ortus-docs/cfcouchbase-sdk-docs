@@ -2,7 +2,7 @@
 
 The easiest way to retrieve a specific document by ID from your Couchbase cluster is by calling the `get()` method.  
 
-```coldfusion
+```js
 person = client.get( id = "brad" );
 ```
 
