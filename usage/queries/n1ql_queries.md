@@ -18,7 +18,7 @@ Here are the arguments you can pass into the `query()` or `n1qlQuery()` methods.
 | type               | `string`   | view   | The type of query being performed, values are: view or n1ql. *Note this only required when calling query() to perform a n1ql query |
 
 
-#### Retrieve Document(s)
+## Retrieve Document(s)
 
 ```coldfusion
 couchbase.n1qlQuery("
@@ -36,9 +36,9 @@ USE KEYS ["user_101","user_454"]
 ");
 ```
 
-#### DML Operations
+## DML Operations
 
-###### Insert
+### Insert
 
 ```coldfusion
 couchbase.n1qlQuery("
@@ -51,7 +51,7 @@ VALUES ("user_2343", {
 ");
 ```
 
-###### Update
+### Update
 
 ```coldfusion
 couchbase.n1qlQuery("
@@ -62,7 +62,7 @@ RETURNING email
 ");
 ```
 
-###### Upsert
+### Upsert
 
 ```coldfusion
 couchbase.n1qlQuery("
@@ -76,7 +76,7 @@ RETURNING META().id AS document_id
 ");
 ```
 
-###### Delete
+### Delete
 
 ```coldfusion
 couchbase.n1qlQuery("
