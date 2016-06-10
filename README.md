@@ -28,7 +28,7 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 ## License
-Apache License, Version 2.0.
+CFCouchbase is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License.
 
 ## Important Links
 
