@@ -20,5 +20,5 @@
        * [Manual Inflation](usage/components/manual_inflation.md)
        * [Custom Serialization](usage/components/custom_serialization.md)
        * [Binary](usage/components/binary.md)
-* [Custom Transformers](usage/transformers.md)
+   * [Custom Transformers](usage/transformers.md)
 
