@@ -71,4 +71,4 @@ public boolean function onApplicationEnd(){
 }
 ```
 
-**Important:** Each Couchbase bucket operates independently and uses its own authentication mechanisms.  You need an instance of `CouchbaseClient` for each bucket you want to interact with. It is also extremely important that you shutdown the clients whenever your application goes down in order to gracefully shutdown connections, else your server might degrade.
+> **Danger:** Each Couchbase bucket operates independently and uses its own authentication mechanisms.  You need an instance of `CouchbaseClient` for each bucket you want to interact with. It is also extremely important that you shutdown the clients whenever your application goes down in order to gracefully shutdown connections, else your server might degrade.
