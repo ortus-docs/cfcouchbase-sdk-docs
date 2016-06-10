@@ -25,6 +25,6 @@
        * [View Queries](usage/queries/view_queries.md)
        * [n1ql Queries](usage/queries/n1ql_queries.md)
    * [Managing Views]
-   * [Working With Futures]
+   * [Working With Futures](usage/working_with_futures.md)
 * [Help & Support](help/index.md)
 
