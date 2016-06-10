@@ -12,3 +12,6 @@ You can manage views and design documents from the Couchbase web console and you
 * `saveView()` - Save/update a view and wait for it to index
 * `asyncSaveView()` - Save/update a view but don't wait for it to become usable
 * `deleteView()` - Delete a single view from its design document
+
+The really nice thing about `saveView()` and `asyncSaveView()` is they either insert or udpate an existing view based on whether it already exists. They also only save to the cluster if the view doesn't exist or is different. This means you can repeatedly call saveView() and nothing will happen on any call but the first. This allows you to specify the views that you need in your application when it starts up and they will only save if neccessary:
+
