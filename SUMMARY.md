@@ -22,4 +22,5 @@
        * [Binary](usage/components/binary.md)
    * [Custom Transformers](usage/transformers.md)
 * Executing Queries
+* Managing Views
 
