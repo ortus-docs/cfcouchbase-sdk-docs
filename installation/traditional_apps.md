@@ -7,7 +7,7 @@ Download the SDK from the following sources or use CommandBox: `box install cfco
 * Bleeding Edge + More: http://integration.stg.ortussolutions.com/artifacts/ortussolutions/cfcouchbase/
 
 
-### The Mapping
+## The Mapping
 
 The CFCouchase SDK is contained in a single folder.  The easiest way to install it is to copy `cfcouchbase` in the web root.  For a more secure installation, place it outside the web root and create a mapping called `cfcouchbase`.   
 
