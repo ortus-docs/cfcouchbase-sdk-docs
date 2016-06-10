@@ -35,6 +35,7 @@ map( "CouchbaseClient" )
 	.asSingleton();
 ```
 
+## Shutting Down The Client
 When you are finished with the client, you need to call its `shutdown()` method to close open connections to the Couchbase server.  The following code sample will wait up to 10 seconds for connections to be closed. 
 
 ```cfml
