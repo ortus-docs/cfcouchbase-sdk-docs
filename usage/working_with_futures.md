@@ -4,7 +4,7 @@ You have probably noticed that all the asyncronous operations in the SDK return 
 
 The most common method is `get()`. Calling this will instruct your code to wait until th eoperation is complete before continuing. Calling `future.get()` essentially makes an *ansynchronou call syncronous*.
 
-```java
+```js
 future = client.asyncGet( ID = 'brad' );
 person = future.get();
 ```
