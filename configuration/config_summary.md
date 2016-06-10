@@ -5,7 +5,7 @@ The default configuration for CFCouchbase is located in  `/cfcouchbase/config/Co
 1. Pass a config structure
 2. Pass a config CFC
 
-**Note:** The config CFC is the most contained and portable way to store your configuration.
+> **Hint** The config CFC is the most contained and portable way to store your configuration.
 
 
 
