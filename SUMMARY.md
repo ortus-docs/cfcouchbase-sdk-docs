@@ -23,4 +23,5 @@
    * [Custom Transformers](usage/transformers.md)
 * Executing Queries
 * Managing Views
+* Working With Futures
 
