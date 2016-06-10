@@ -15,5 +15,5 @@
    * [Storage Durability](usage/storage_durability.md)
    * [Retrieving Documents](usage/retrieving_documents.md)
    * [Data Serialization](usage/data_serialization.md)
-   * Components
+   * [Components](components/components.md)
 
