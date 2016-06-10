@@ -1,9 +1,9 @@
 #Storage Durability
 
-Couchbase autos-shards `master` and `replica` documents across your cluster out-of-the-box.  Documents are stored both in RAM for fast access and persisted to disk for long term storage.  By default, all storage operations are `synchronous`, and will return once the document has been written to memory. Which means the `upsert()` call returns potentially before the document is fully stored and replicated.  This is a break from the consistency offered by a typical RDBMS, but it is key to the high-performance and scalable architecture. See the [CAP Theorem](http://en.wikipedia.org/wiki/CAP_theorem).
+Couchbase auto-shards `master` and `replica` documents across your cluster out-of-the-box.  Documents are stored both in RAM for fast access and persisted to disk for long term storage.  By default, all storage operations are `synchronous`, and will return once the document has been written to memory. Which means the `upsert()` call returns potentially before the document is fully stored and replicated.  This is a break from the consistency offered by a typical RDBMS, but it is key to the high-performance and scalable architecture. See the [CAP Theorem](http://en.wikipedia.org/wiki/CAP_theorem).
 
-* If your application requires you to confirm that a document has been persisted to disk, use the '''persistTo''' argument.  
-* If you need to confirm that the document has been copied to a given number replica nodes, use the '''replicateTo''' argument.
+* If your application requires you to confirm that a document has been persisted to disk, use the `persistTo` argument.  
+* If you need to confirm that the document has been copied to a given number replica nodes, use the `replicateTo` argument.
 
 ```coldfusion
 // This document will be persisted to disk on at least two nodes
