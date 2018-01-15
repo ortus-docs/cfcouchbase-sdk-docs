@@ -57,7 +57,7 @@ CFCouchbase is a professional open source software backed by [Ortus Solutions, C
 - Tracker Site (Bug Tracking, Issues) - [https://ortussolutions.atlassian.net/browse/COUCHBASESDK](https://ortussolutions.atlassian.net/browse/COUCHBASESDK)
 - Documentation - [https://cfcouchbase.ortusbooks.com/](https://cfcouchbase.ortusbooks.com/)
 - Blog - [http://www.ortussolutions.com/blog](http://www.ortussolutions.com/blog)
-- Official Site - [http://www.ortussolutions.com/products/cfcouchbase](http://www.ortussolutions.com/products/cfcouchbase)
+- Official Site - [https://www.ortussolutions.com/products/cfcouchbase](https://www.ortussolutions.com/products/cfcouchbase)
 
 
 ---
