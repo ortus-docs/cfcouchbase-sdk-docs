@@ -17,7 +17,7 @@ The CFCouchbase SDK is a CFML library for interacting with [Couchbase NoSQL Serv
 > Couchbase is copyright and a registered trademark by Couchbase, Inc.
 
 # Versioning
-CFCouchbase is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible.  Releases will be numbered with the following format:
+CFCouchbase is maintained under the [Semantic Versioning](https://semver.org) guidelines as much as possible.  Releases will be numbered with the following format:
 
 ```
 <major>.<minor>.<patch>
