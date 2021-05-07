@@ -8,7 +8,7 @@ component {
     function configure() {
         servers = ['http://cache1:8091','http://cache2:8091'];
         bucketName = 'myBucket';
-        bucketName = 'myPass';
+        password = 'myPass';
     }
 
 }
